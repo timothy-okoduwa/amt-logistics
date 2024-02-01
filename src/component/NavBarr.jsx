@@ -1,13 +1,31 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import l from '../image/amt-logo.svg';
 const NavBarr = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      if (isScrolled !== scrolled) {
+        setScrolled(isScrolled);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup the event listener when the component is unmounted
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [scrolled]);
+
   return (
     <div>
-      <Navbar expand="lg" className="bground   ">
+      <Navbar expand="lg" className={`bground ${scrolled ? 'scrolled' : ''}`}>
         <Container>
           <Navbar.Brand>
             <img src={l} alt="img" />
@@ -16,12 +34,24 @@ const NavBarr = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="wehhhoo w-100">
               <div className="wrapper">
-                <div className="navslinks">About us</div>
-                <div className="navslinks">Our Solutions</div>
-                <div className="navslinks">Compliance & QHSSE</div>
-                <div className="navslinks">News</div>
-                <div className="navslinks">Career</div>
-                <div className="navslinks">FAQS</div>
+                <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
+                  About us
+                </div>
+                <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
+                  Our Solutions
+                </div>
+                <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
+                  Compliance & QHSSE
+                </div>
+                <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
+                  News
+                </div>
+                <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
+                  Career
+                </div>
+                <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
+                  FAQS
+                </div>
                 <button className="contact_us">Contact Us</button>
               </div>
             </Nav>
