@@ -5,6 +5,7 @@ import Services from '../component/Services';
 import Location from '../component/Location';
 import News from '../component/News';
 import Testimonal from '../component/Testimonal';
+import LocalCert from '../component/LocalCert';
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Location />
       <News />
       <Testimonal />
+      <LocalCert />
     </div>
   );
 };
