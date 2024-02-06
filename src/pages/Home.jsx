@@ -6,6 +6,7 @@ import Location from '../component/Location';
 import News from '../component/News';
 import Testimonal from '../component/Testimonal';
 import LocalCert from '../component/LocalCert';
+import Faq from '../component/Faq';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <News />
       <Testimonal />
       <LocalCert />
+      <Faq />
     </div>
   );
 };
