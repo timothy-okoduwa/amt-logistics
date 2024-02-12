@@ -617,7 +617,134 @@
   font-weight: 600;
   color: #ffffff;
 }
+.Frequently {
+  font-family: Candara;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 44px;
+  margin-top: 70px;
+  text-align: center;
+}
+.Everything {
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
+  margin-top: 20px;
+}
+.vibesss {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.other {
+  width: 60%;
+  /* background-color: green; */
+}
+.ispossible {
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0a0a0a;
+}
+.yess {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0a0a0a;
+}
+.ghail {
+  background: #102845;
+  margin-top: 80px;
+  color: white;
+}
+.joinn {
+  font-family: Candara;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.newsletter {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.reveled {
+  width: 280px;
+  height: 44px;
+  padding-left: 17px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 8px;
+  outline: none;
+}
+.send_button {
+  width: 109px;
+  height: 44px;
+  border-radius: 8px;
+  padding: 10px, 18px, 10px, 18px;
+  background-color: #4ebcd7;
+  outline: none;
+  border: none;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  margin-left: 40px;
+}
+.clash {
+  font-family: Clash Display;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.linkkk {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #d9d9d9;
+}
+.twentty {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.dumbbb {
+  display: flex;
+  justify-content: flex-end;
+}
 @media screen and (max-width: 991px) {
+  .dumbbb {
+    display: flex;
+    justify-content: flex-start;
+  }
   .Testimonal {
     font-family: Clash Display;
     font-size: 64px;

@@ -2,6 +2,7 @@ import Home from './pages/Home';
 import './App.css';
 import TopName from './component/TopName';
 import NavBarr from './component/NavBarr';
+import Footer from './component/Footer';
 function App() {
   return (
     <div>
@@ -11,6 +12,7 @@ function App() {
       </div>
 
       <Home />
+      <Footer/>
     </div>
   );
 }
