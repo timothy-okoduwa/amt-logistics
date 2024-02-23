@@ -207,6 +207,17 @@
   font-weight: 500;
   line-height: normal;
 }
+.bus_name2 {
+  color: #fff;
+  width: fit-content;
+  /* border-bottom: 2px solid #fff; */
+  height: 50px;
+  font-family: 'Clash Display';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 .empowering {
   color: #fff;
   font-family: 'Clash Display';
@@ -215,6 +226,16 @@
   font-weight: 500;
   width: 75%;
   line-height: normal;
+}
+.empowering2 {
+  color: #fff;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 39%;
 }
 .boggy {
   margin-top: 270px;
@@ -593,6 +614,17 @@
   height: 100%;
   /* background: #102845; */
 }
+.pleaseee2 {
+  background-color: #d9d9d9;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url('./image/globe.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  /* background: #102845; */
+}
 .loccc {
   font-family: Candara;
   font-size: 48px;
@@ -600,6 +632,14 @@
   line-height: 56px;
   text-align: center;
   color: #ffffff;
+}
+.loccc2 {
+  font-family: Candara;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  text-align: center;
+  color: #102845;
 }
 .captured {
   margin-top: 120px;
@@ -614,6 +654,17 @@
   font-weight: 600;
   color: #000000;
 }
+.connn2 {
+  width: 221.09px;
+  height: 49.43px;
+  border: none;
+  border-radius: 44.94px;
+  font-family: Candara;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  background: #4ebcd7;
+}
 .exxx {
   width: 221.09px;
   height: 49.43px;
@@ -624,6 +675,17 @@
   font-size: 14px;
   font-weight: 600;
   color: #ffffff;
+}
+.exxx2 {
+  width: 221.09px;
+  height: 49.43px;
+  border: none;
+  border-radius: 44.94px;
+  background-color: transparent;
+  font-family: Candara;
+  font-size: 14px;
+  font-weight: 600;
+  color: #102845;
 }
 .Frequently {
   font-family: Candara;
@@ -673,7 +735,7 @@
 }
 .ghail {
   background: #102845;
-  margin-top: 80px;
+  /* margin-top: 80px; */
   color: white;
 }
 .joinn {
@@ -932,7 +994,121 @@
   align-items: center;
   flex-direction: column;
 }
+.innerhouse {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.bluup {
+  background: #102845;
+}
+.wellop {
+  width: 100%;
+  height: 484.38px;
+  border-radius: 20px;
+}
+.wellop img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.inttt {
+  font-family: Candara;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0a0a0a;
+}
+
+.sofyun {
+  margin-top: 30px;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0a0a0a;
+}
+.inttt2 {
+  font-family: Candara;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.sofyun2 {
+  margin-top: 30px;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.willeo {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.mounted {
+  width: 80%;
+  padding-top: 80px;
+}
+.mounted3 {
+  width: 80%;
+  padding-top: 20px;
+}
+.mounted2 {
+  width: 100%;
+  color: #ffffff !important;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  /* padding-top: 50px; */
+  padding-left: 19px;
+}
 @media screen and (max-width: 991px) {
+  .empowering {
+    color: #fff;
+    font-family: 'Clash Display';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    width: 100%;
+    line-height: normal;
+  }
+  .empowering2 {
+    color: #fff;
+    font-family: Segoe UI;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 100%;
+  }
+  .mounted2 {
+    width: 100%;
+    color: #ffffff !important;
+    /* padding-top: 50px; */
+    padding-left: 0px;
+  }
+  .mounted {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .mounted3 {
+    width: 100%;
+    padding-top: 20px;
+  }
   .vipromax {
     width: 100%;
     margin-bottom: 40px !important;
@@ -999,7 +1175,7 @@
     width: 100%;
     height: 900px;
   }
-  .empowering {
+  .empowering .empowering2 {
     width: 100%;
   }
   .push_up {

@@ -44,7 +44,12 @@ const NavBarr = () => {
                   </Link>
                 </div>
                 <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
-                  Our Solutions
+                  <Link
+                    to="/solutions"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    Our Solutions
+                  </Link>
                 </div>
                 <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
                   Compliance & QHSSE

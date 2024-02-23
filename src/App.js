@@ -6,6 +6,7 @@ import Footer from './component/Footer';
 import ScrollToTop from './ScrollToTop';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './pages/About';
+import Solutions from './pages/Solutions';
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/solutions" element={<Solutions />} />
       </Routes>
 
       <Footer />
