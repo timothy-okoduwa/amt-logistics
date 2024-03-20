@@ -7,6 +7,9 @@ import ScrollToTop from './ScrollToTop';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './pages/About';
 import Solutions from './pages/Solutions';
+import Compliance from './pages/Compliance';
+import Faqs from './pages/Faqs';
+import Newss from './pages/Newss';
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +21,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/solutions" element={<Solutions />} />
+        <Route path="/compliance" element={<Compliance />} />
+        <Route path="/faqs" element={<Faqs />} />
+        <Route path="/news" element={<Newss />} />
       </Routes>
 
       <Footer />

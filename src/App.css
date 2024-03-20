@@ -149,11 +149,20 @@
   width: 100%;
   height: 700px;
 }
+.weoeoeo2 {
+  width: 100%;
+  height: 658px;
+}
 .push_up {
   margin-top: -70px;
   z-index: -10;
 }
 .weoeoeo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.weoeoeo2 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -218,6 +227,14 @@
   font-weight: 500;
   line-height: normal;
 }
+.candara {
+  font-family: Candara;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
 .empowering {
   color: #fff;
   font-family: 'Clash Display';
@@ -237,6 +254,16 @@
   text-align: left;
   width: 39%;
 }
+.empowering3 {
+  color: #fff;
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 100%;
+}
 .boggy {
   margin-top: 270px;
 }
@@ -247,6 +274,14 @@
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
+}
+.boggy3 {
+  margin-top: 110px;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 .waii {
   display: flex;
@@ -1075,7 +1110,121 @@
   /* padding-top: 50px; */
   padding-left: 19px;
 }
+.paddington {
+  padding-top: 90px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 40px;
+}
+.paddington2 {
+  padding-top: 90px;
+  padding-left: 270px;
+  padding-right: 270px;
+  padding-bottom: 80px;
+}
+.Aboutvv {
+  font-family: Candara;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.95px;
+  text-align: center;
+  color: #000000;
+}
+.QHSSE {
+  font-family: Candara;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 78.13px;
+  text-align: center;
+  color: #000000;
+}
+.alltexts {
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #000000;
+}
+.assembly {
+  font-family: Segoe UI;
+  font-size: 24px;
+  font-weight: 400;
+
+  text-align: left;
+}
+.wijhjjhjk {
+  display: flex;
+}
+.freq {
+  font-family: Candara;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #0a0a0a;
+}
+.billing {
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #0a0a0a;
+}
+.quessde {
+  font-family: Segoe UI;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #667085;
+  width: 100%;
+  height: 48px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #000000;
+  outline: none;
+}
+.doubts {
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 30px;
+  color: #0a0a0a;
+}
+.cus {
+  font-family: Segoe UI;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  color: #4ebcd7;
+  cursor: pointer;
+}
 @media screen and (max-width: 991px) {
+  .send_button {
+    margin-left: 10px;
+  }
+  .wijhjjhjk {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .paddington {
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+  }
+  .paddington2 {
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+  }
   .empowering {
     color: #fff;
     font-family: 'Clash Display';
@@ -1174,6 +1323,10 @@
   .weoeoeo {
     width: 100%;
     height: 900px;
+  }
+  .weoeoeo2 {
+    width: 100%;
+    height: 458px;
   }
   .empowering .empowering2 {
     width: 100%;

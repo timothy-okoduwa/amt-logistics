@@ -18,7 +18,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-12 col-lg-6 mb-4 dumbbb">
-              <div className="d-flex">
+              <div className="wijhjjhjk">
                 <div>
                   <input
                     type="text"

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 import l from '../image/amt-logo.svg';
 import { Link } from 'react-router-dom';
 const NavBarr = () => {
@@ -52,16 +52,31 @@ const NavBarr = () => {
                   </Link>
                 </div>
                 <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
-                  Compliance & QHSSE
+                  <Link
+                    to="/compliance"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    Compliance & QHSSE
+                  </Link>
                 </div>
                 <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
-                  News
+                  <Link
+                    to="/news"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    News
+                  </Link>
                 </div>
                 <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
                   Career
                 </div>
                 <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
-                  FAQS
+                  <Link
+                    to="/faqs"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    FAQS
+                  </Link>
                 </div>
                 <button className="contact_us">Contact Us</button>
               </div>
