@@ -29,7 +29,9 @@ const NavBarr = () => {
       <Navbar expand="lg" className={`bground ${scrolled ? 'scrolled' : ''}`}>
         <Container>
           <Navbar.Brand>
-            <img src={l} alt="img" />
+            <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <img src={l} alt="img" />
+            </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -67,8 +69,14 @@ const NavBarr = () => {
                     News
                   </Link>
                 </div>
+
                 <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
-                  Career
+                  <Link
+                    to="/career"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    Career
+                  </Link>
                 </div>
                 <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
                   <Link
@@ -78,7 +86,12 @@ const NavBarr = () => {
                     FAQS
                   </Link>
                 </div>
-                <button className="contact_us">Contact Us</button>
+                <Link
+                  to="/contact"
+                  style={{ textDecoration: 'none', color: 'inherit' }}
+                >
+                  <button className="contact_us">Contact Us</button>
+                </Link>
               </div>
             </Nav>
           </Navbar.Collapse>

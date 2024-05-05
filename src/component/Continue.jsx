@@ -1,0 +1,85 @@
+import React from 'react';
+import g from '../image/Group23.png';
+import h from '../image/Group 28.png';
+import i from '../image/Group 29.png';
+import m from '../image/map.png';
+const Continue = () => {
+  return (
+    <div className="nahewe">
+      <div>
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-lg-4">
+              <div>
+                <img src={g} alt="" />
+              </div>
+            </div>
+            <div className="col-12 col-lg-4">
+              <div>
+                <img src={h} alt="" />
+              </div>
+            </div>
+            <div className="col-12 col-lg-4">
+              <div>
+                <img src={i} alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="itwo">
+            <div className="row">
+              <div className="col-12 col-lg-6 mb-4">
+                <div>
+                  <div className="gettt">Get in touch</div>
+                  <div className="frerir">
+                    Our friendly team would love to hear from you.
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-12 col-lg-6 mb-5">
+                    <div>
+                      <div className="labelll">First Name</div>
+                      <input type="text" className="inputtt" />
+                    </div>
+                  </div>
+                  <div className="col-12 col-lg-6 mb-5">
+                    <div>
+                      <div className="labelll">Last Name</div>
+                      <input type="text" className="inputtt" />
+                    </div>
+                  </div>
+                </div>
+                <div className="mb-4">
+                  <div className="labelll">Phone number</div>
+                  <input type="text" className="inputtt" />
+                </div>
+                <div className="mb-4">
+                  <div className="labelll">Email</div>
+                  <input type="text" className="inputtt" />
+                </div>
+                <div className="mb-4">
+                  <div className="labelll">subject</div>
+                  <input type="text" className="inputtt" />
+                </div>
+                <div className="mb-4">
+                  <div className="labelll">Message</div>
+                  <textarea className="textts" />
+                </div>
+                <div>
+                  <button className="senmess">Send message</button>
+                </div>
+              </div>
+              <div className="col-12 col-lg-6 mb-4">
+                <div className="mage_hold">
+                  <img src={m} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Continue;

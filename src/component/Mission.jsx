@@ -19,26 +19,22 @@ const Mission = () => {
             <div>
               <div className="wordss">
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  AMT CAMEROON SA is an experienced provider experienced
+                  provider of integrated logistics, transport and
+                  maritime/shipping services in a modern supply chain management
+                  environment.
                 </span>
               </div>
               <div className="mt-5 wordss">
                 <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Our commitment to efficiency, reliability, and innovation
+                  ensures that we consistently exceed expectations, enabling
+                  businesses to thrive in today's dynamic marketplace. Whether
+                  it's managing complex transportation networks, facilitating
+                  seamless cargo movement, or optimizing warehousing and
+                  distribution processes, AMT CAMEROUN SA stands ready to
+                  streamline operations and drive success for our valued
+                  partners.
                 </span>
               </div>
             </div>

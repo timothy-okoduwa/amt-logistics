@@ -21,14 +21,9 @@ const Location = () => {
                 </div>
                 <div className="takklo">
                   <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    600, Ave. Charles de Gaulle – Bonanjo, Douala / <br />{' '}
+                    Cameroon Tel (office): +237 679 52 11 63 <br /> Mobile: +237
+                    679 52 36 90
                   </span>
                 </div>
               </div>

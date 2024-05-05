@@ -1,5 +1,6 @@
 import React from 'react';
 import a from '../image/Logo AMT 1.png';
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div className="ghail">
@@ -41,13 +42,28 @@ const Footer = () => {
                   <span>Company</span>
                 </div>
                 <div className="mb-3 linkkk">
-                  <span>About us</span>
+                  <Link
+                    to="/about"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    <span>About us</span>
+                  </Link>
                 </div>
                 <div className="mb-3 linkkk">
-                  <span>Our Services</span>
+                  <Link
+                    to="/solutions"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    <span> Our Solutions</span>
+                  </Link>
                 </div>
                 <div className="mb-3 linkkk">
-                  <span>Contact Us</span>
+                  <Link
+                    to="/contact"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    <span>Contact Us</span>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -57,13 +73,28 @@ const Footer = () => {
                   <span>Resources</span>
                 </div>
                 <div className="mb-3 linkkk">
-                  <span>News</span>
+                  <Link
+                    to="/news"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    <span>News</span>
+                  </Link>
                 </div>
                 <div className="mb-3 linkkk">
-                  <span>FAQ</span>
+                  <Link
+                    to="/faqs"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    <span>FAQ</span>
+                  </Link>
                 </div>
                 <div className="mb-3 linkkk">
-                  <span>Compliance & QHSSE</span>
+                  <Link
+                    to="/compliance"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    <span>Compliance & QHSSE</span>
+                  </Link>
                 </div>
               </div>
             </div>
