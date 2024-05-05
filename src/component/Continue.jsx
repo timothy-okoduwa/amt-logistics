@@ -10,17 +10,17 @@ const Continue = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 col-lg-4">
-              <div>
+              <div className="juuu">
                 <img src={g} alt="" />
               </div>
             </div>
             <div className="col-12 col-lg-4">
-              <div>
+              <div className="juuu">
                 <img src={h} alt="" />
               </div>
             </div>
             <div className="col-12 col-lg-4">
-              <div>
+              <div className="juuu">
                 <img src={i} alt="" />
               </div>
             </div>

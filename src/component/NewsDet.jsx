@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const NewsDet = () => {
   return (
     <div className="doodr">
-      <div className="continer">
+      <div className="container">
         <div className="pembass">
           <span>Our colleagues from Pemba, Mozambique.</span>
         </div>
@@ -23,7 +23,7 @@ const NewsDet = () => {
                 </div>
               </div>
             </div>
-            <div>
+            <div className="weedx">
               <div>
                 <span className="mx-4">Share on:</span>
                 <span>
@@ -100,7 +100,7 @@ const NewsDet = () => {
           </div>
         </div>
 
-        <div className="continer helaiiu">
+        <div className="container helaiiu">
           <div className="weiuhg">
             <img src={i} alt="" />
           </div>
@@ -129,7 +129,7 @@ const NewsDet = () => {
             </div>
           </div>
         </div>
-        <div className="continer helaiiu">
+        <div className="container helaiiu">
           <div className="weiuhg">
             <img src={i} alt="" />
           </div>

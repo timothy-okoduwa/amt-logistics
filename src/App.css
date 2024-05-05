@@ -585,6 +585,7 @@
   letter-spacing: 0em;
   text-align: center;
   color: #ffffff;
+  width: 100%;
 }
 .flex-up-stae {
   margin-top: 70px;
@@ -592,10 +593,16 @@
   align-items: center;
   justify-content: center;
 }
-.minuss img {
+.minuss {
   height: 100px;
   width: 100px;
   border-radius: 50%;
+}
+.minuss img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 .regr {
   margin-left: 20px;
@@ -899,7 +906,7 @@
   justify-content: center;
 }
 .billz {
-  width: 360px;
+  width: 100%;
   height: 327px;
   border-radius: 10px;
   background-position: center;
@@ -1478,6 +1485,13 @@
 
   color: white;
 }
+.juuu {
+  width: 100%;
+}
+.juuu img {
+  width: 100%;
+  object-fit: contain;
+}
 .textts {
   width: 100% !important;
   height: 192px;
@@ -1507,6 +1521,7 @@
   width: 60%;
 
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .eowirudcu {
@@ -1544,14 +1559,13 @@
   object-fit: cover;
 }
 .weiuhg {
-  display: flex;
-  justify-content: center;
-  /* width: 100%; */
+  background-color: red;
+  width: 100%;
+  height: 300px;
 }
 .weiuhg img {
-  display: flex;
-  justify-content: center;
-  /* width: 100%; */
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .helaiiu {
@@ -1620,15 +1634,64 @@
   box-shadow: 0px 1px 2px 0px #1018280d;
   border: 1px solid #102845;
 }
+@media screen and (max-width: 320px) {
+  .subbz {
+    margin-top: 12px;
+  }
+}
 @media screen and (max-width: 991px) {
+  .conn {
+    display: flex;
+    padding: 12px 48px;
+    justify-content: center;
+    color: var(--White, #fff);
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    align-items: center;
+    gap: 8px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background: var(--Secondary, #4ebcd7);
+    border: none;
+    /* Shadow/xs */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  }
+  .our_talks {
+    color: #000;
+    width: 100%;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+  }
+  .other {
+    width: 100%;
+    /* background-color: green; */
+  }
   .ejoke {
     width: 100%;
 
     display: flex;
     justify-content: space-between;
   }
+  .weedx {
+    margin-top: 15px;
+  }
   .toowp {
     width: 100%;
+  }
+  .our_services {
+    color: #000;
+    font-family: Candara;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 78.13px;
+    text-align: left;
   }
   .benedde {
     width: 100%;
@@ -1646,6 +1709,12 @@
     display: flex;
     flex-wrap: wrap;
   }
+  .flex-up-stae {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   .paddington {
     padding-top: 90px;
     padding-left: 30px;
@@ -1658,14 +1727,84 @@
     padding-right: 30px;
     padding-bottom: 40px;
   }
+  .minuss {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  .dfkex {
+    display: flex;
+    justify-content: center;
+  }
+  .announcment {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-shrink: 0;
+    background: var(--Primary, #102845);
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+
+    /* margin-bottom: 70px; */
+  }
+  .camerr {
+    color: #000;
+    /* text-align: center; */
+    font-family: 'Candara';
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
   .empowering {
     color: #fff;
     font-family: 'Candara';
-    font-size: 64px;
+    font-size: 44px;
     font-style: normal;
     font-weight: 500;
     width: 100%;
     line-height: normal;
+    margin-top: 30px;
+  }
+  .news_and_update {
+    color: #000;
+    text-align: center;
+    font-family: 'Candara';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .candara {
+    font-family: Candara;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+    /* letter-spacing: -0.02em; */
+    text-align: left;
+  }
+  .candara2 {
+    font-family: Candara;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 48px;
+    /* letter-spacing: -0.02em; */
+    text-align: left;
+    color: #fff;
+  }
+  .waii {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .Frequently {
+    font-family: Candara;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 44px;
+    margin-top: 70px;
+    text-align: center;
   }
   .empowering2 {
     color: #fff;
@@ -1727,7 +1866,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 190%;
     margin-top: 70px;
   }
   .dumbbb {
@@ -1736,7 +1875,7 @@
   }
   .Testimonal {
     font-family: Candara;
-    font-size: 64px;
+    font-size: 34px;
     font-weight: 500;
     line-height: 79px;
     letter-spacing: 0em;

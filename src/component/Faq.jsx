@@ -6,7 +6,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 
 const Faq = () => {
   return (
-    <div className="mt-5 mb-5">
+    <div className=" container mt-5 mb-5">
       <div className="Frequently">
         <span>Frequently asked questions</span>
       </div>

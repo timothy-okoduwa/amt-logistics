@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import c from '../image/cargo.svg';
 import e from '../image/engneer.svg';
+import { Link } from 'react-router-dom';
 const Hrader = () => {
   return (
     <div className="push_up">
@@ -22,8 +23,19 @@ const Hrader = () => {
                   </span>
                 </div>
                 <div className="waii">
-                  <button className="serr">Our Services</button>
-                  <button className="conn">Contact Us</button>
+                  <Link
+                    to="/solutions"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    <button className="serr">Our Solutions</button>
+                  </Link>
+
+                  <Link
+                    to="/contact"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    <button className="conn">Contact Us</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -44,8 +56,19 @@ const Hrader = () => {
                   </span>
                 </div>
                 <div className="waii">
-                  <button className="serr">Our Services</button>
-                  <button className="conn">Contact Us</button>
+                  <Link
+                    to="/solutions"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    <button className="serr">Our Solutions</button>
+                  </Link>
+
+                  <Link
+                    to="/contact"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    <button className="conn">Contact Us</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -66,8 +89,19 @@ const Hrader = () => {
                   </span>
                 </div>
                 <div className="waii">
-                  <button className="serr">Our Services</button>
-                  <button className="conn">Contact Us</button>
+                  <Link
+                    to="/solutions"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    <button className="serr">Our Solutions</button>
+                  </Link>
+
+                  <Link
+                    to="/contact"
+                    style={{ textDecoration: 'none', color: 'inherit' }}
+                  >
+                    <button className="conn">Contact Us</button>
+                  </Link>
                 </div>
               </div>
             </div>

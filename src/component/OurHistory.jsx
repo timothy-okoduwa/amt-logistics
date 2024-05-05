@@ -2,7 +2,7 @@ import React from 'react';
 
 const OurHistory = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5 container">
       <div className="niboooo">
         <div className="container">
           <div className="ursiy">
