@@ -28,7 +28,7 @@ const Continue = () => {
 
           <div className="itwo">
             <div className="row">
-              <div className="col-12 col-lg-6 mb-4 bg-danger">
+              <div className="col-12 col-lg-6 mb-4">
                 <div>
                   <div className="gettt">Get in touch</div>
                   <div className="frerir">
