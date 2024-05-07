@@ -39,27 +39,27 @@ const Continue = () => {
                   <div className="col-12 col-lg-6 mb-5">
                     <div>
                       <div className="labelll">First Name</div>
-                      <input type="text" className="inputtt2" placeholder="First name" />
+                      <input type="text"  placeholder="First name" />
                     </div>
                   </div>
                   <div className="col-12 col-lg-6 mb-5">
                     <div>
                       <div className="labelll">Last Name</div>
-                      <input type="text" className="inputtt2" placeholder="Last Name" />
+                      <input type="text" placeholder="Last Name" />
                     </div>
                   </div>
                 </div>
                 <div className="mb-4">
                   <div className="labelll">Phone number</div>
-                  <input type="text" className="inputtt2" placeholder="Phone number"/>
+                  <input type="text" placeholder="Phone number"/>
                 </div>
                 <div className="mb-4">
                   <div className="labelll">Email</div>
-                  <input type="text" className="inputtt2" placeholder="Email" />
+                  <input type="text"  placeholder="Email" />
                 </div>
                 <div className="mb-4">
                   <div className="labelll">subject</div>
-                  <input type="text" className="inputtt2" />
+                  <input type="text"  />
                 </div>
                 <div className="mb-4">
                   <div className="labelll">Message</div>
