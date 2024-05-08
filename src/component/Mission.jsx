@@ -11,7 +11,7 @@ const Mission = () => {
                 <span>AMT</span>
               </div>
               <div className="camerr">
-                <span>Cameroon</span>
+                <span>Cameroun SA</span>
               </div>
             </div>
           </div>

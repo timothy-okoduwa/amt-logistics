@@ -16,14 +16,14 @@ const Location = () => {
                 <div className="our_location">
                   <span>Our Location</span>
                 </div>
-                <div className="Douala">
+                <div className="Douala22">
                   <span>Douala, Cameroon</span>
                 </div>
                 <div className="takklo">
                   <span>
                     600, Ave. Charles de Gaulle – Bonanjo, Douala / <br />{' '}
-                    Cameroon Tel (office): +237 679 52 11 63 <br /> Mobile: +237
-                    679 52 36 90
+                    Cameroon <br /> Tel (office): +237 679 52 11 63 <br />{' '}
+                    Mobile: +237 679 52 36 90
                   </span>
                 </div>
               </div>

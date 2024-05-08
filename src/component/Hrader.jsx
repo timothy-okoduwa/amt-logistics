@@ -1,14 +1,15 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import c from '../image/cargo.svg';
-import e from '../image/engneer.svg';
+import e from '../image/h2.svg';
+import f from '../image/h3.svg';
 import { Link } from 'react-router-dom';
 const Hrader = () => {
   return (
     <div className="push_up">
       <Carousel fade>
         <Carousel.Item className="weoeoeo" interval={3000}>
-          <img src={c} className="zoom-in" alt="slides" text="First slide" />
+          <img src={c} className="" alt="slides" text="First slide" />
 
           <Carousel.Caption className="avavav">
             <div className="container">
@@ -75,7 +76,7 @@ const Hrader = () => {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className="weoeoeo" interval={3000}>
-          <img src={c} className="zoom-in" alt="slides" text="Third slide" />
+          <img src={f} className="" alt="slides" text="Third slide" />
           <Carousel.Caption className="avavav">
             <div className="container">
               <div className="boggy">

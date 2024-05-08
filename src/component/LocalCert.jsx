@@ -8,23 +8,23 @@ const LocalCert = () => {
       <div className="loccc">
         <span>Local Certifications</span>
       </div>
-      <div className=" container captured">
-        <div className="row">
-          <div className="col-12 col-lg-3 dfkex mb-4">
+      <div className="container  captured">
+        <div className="welpdkjh">
+          <div className="mb-4">
             <div>
               <img src={a} alt="" />
             </div>
           </div>
-          <div className="col-12 col-lg-3 dfkex mb-4">
+          <div className="mb-4">
             <img src={a} alt="" />
           </div>
-          <div className="col-12 col-lg-3 dfkex mb-4">
+          <div className="mb-4">
             <img src={b} alt="" />
           </div>
-          <div className="col-12 col-lg-3 dfkex mb-4">
+          <div className="mb-4">
             <img src={a} alt="" />
           </div>
-          <div className="col-12 col-lg-3 dfkex mb-4">
+          <div className="mb-4">
             <img src={c} alt="" />
           </div>
         </div>

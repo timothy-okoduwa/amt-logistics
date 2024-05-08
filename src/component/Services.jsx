@@ -1,5 +1,5 @@
 import React from 'react';
-import l from '../image/Contents.png';
+import l from '../image/Contentss.svg';
 import { Link } from 'react-router-dom';
 const Services = () => {
   return (
