@@ -1,8 +1,8 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import c from '../image/cargo.svg';
-import e from '../image/h2.svg';
-import f from '../image/h3.svg';
+import e from '../image/h2.webp';
+import f from '../image/h3.webp';
 import { Link } from 'react-router-dom';
 const Hrader = () => {
   return (

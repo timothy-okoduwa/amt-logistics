@@ -1,5 +1,5 @@
 import React from 'react';
-import l from '../image/Contentss.svg';
+import l from '../image/Contentss.webp';
 import { Link } from 'react-router-dom';
 const Services = () => {
   return (
