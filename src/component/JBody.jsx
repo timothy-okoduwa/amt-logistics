@@ -104,25 +104,25 @@ const JBody = () => {
             <div className="col-12 col-lg-6 mb-5">
               <div>
                 <div className="labelll">First Name</div>
-                <input type="text" className="inputtt" />
+                <input type="text" placeholder="" className="quessde" />
               </div>
             </div>
             <div className="col-12 col-lg-6 mb-5">
               <div>
                 <div className="labelll">Last Name</div>
-                <input type="text" className="inputtt" />
+                <input type="text" placeholder="" className="quessde" />
               </div>
             </div>
             <div className="col-12 col-lg-6 mb-5">
               <div>
                 <div className="labelll">Email</div>
-                <input type="text" className="inputtt" />
+                <input type="email" placeholder="" className="quessde" />
               </div>
             </div>
             <div className="col-12 col-lg-6 mb-5">
               <div>
                 <div className="labelll">Phone Number</div>
-                <input type="text" className="inputtt" />
+                <input type="phone" placeholder="" className="quessde" />
               </div>
             </div>
 

@@ -39,27 +39,43 @@ const Continue = () => {
                   <div className="col-12 col-lg-6 mb-5">
                     <div>
                       <div className="labelll">First Name</div>
-                      <input type="text"  placeholder="First name" className='pleasework' />
+                      <input
+                        type="text"
+                        placeholder="First name"
+                        className="quessde"
+                      />
                     </div>
                   </div>
                   <div className="col-12 col-lg-6 mb-5">
                     <div>
                       <div className="labelll">Last Name</div>
-                      <input type="text" placeholder="Last Name" className='pleasework'/>
+                      <input
+                        type="text"
+                        placeholder="Last Name"
+                        className="quessde"
+                      />
                     </div>
                   </div>
                 </div>
                 <div className="mb-4">
                   <div className="labelll">Phone number</div>
-                  <input type="text" placeholder="Phone number" className='pleasework'/>
+                  <input
+                    type="text"
+                    placeholder="Phone number"
+                    className="quessde"
+                  />
                 </div>
                 <div className="mb-4">
                   <div className="labelll">Email</div>
-                  <input type="text"  placeholder="Email" className='pleasework'/>
+                  <input type="text" placeholder="Email" className="quessde" />
                 </div>
                 <div className="mb-4">
                   <div className="labelll">subject</div>
-                  <input type="text" className='pleasework' placeholder="Subject" />
+                  <input
+                    type="text"
+                    className="quessde"
+                    placeholder="Subject"
+                  />
                 </div>
                 <div className="mb-4">
                   <div className="labelll">Message</div>
