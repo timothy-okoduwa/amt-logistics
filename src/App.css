@@ -1680,6 +1680,15 @@
   }
 }
 @media screen and (max-width: 991px) {
+  .ennough {
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30.4px;
+    text-align: left;
+    color: #000000;
+    width: 100%;
+  }
   .welpdkjh {
     width: 100%;
     display: flex;
