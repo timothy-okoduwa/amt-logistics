@@ -1,38 +1,42 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import the styles
-import e from '../image/eli.png';
+import a from '../image/a.png';
+import b from '../image/b.png';
+import c from '../image/c.png';
+import d from '../image/d.png';
+import e from '../image/e.png';
 const Testimonal = () => {
   const testimonials = [
     {
-      text: 'Lorem ipsum dolor sit amet consectetur. Id pharetra eget congue eget sapien feugiat vitae ultricies leo. Tristique ut placerat vitae enim consectetur eget integer. Posuere mauris elit phasellus viverra adipiscing.',
-      name: 'Cameron Kisha',
+      text: 'Generally satisfy with our services',
+      name: 'Addax Petroleum Cameroon Company S.A',
       role: 'Project Manager',
+      image: a,
     },
     {
-      text: 'Lorem ipsum dolor sit amet consectetur. Id pharetra eget congue eget sapien feugiat vitae ultricies leo. Tristique ut placerat vitae enim consectetur eget integer. Posuere mauris elit phasellus viverra adipiscing.',
-      name: 'Cameron Kisha',
+      text: 'Satisfy with our services, though complaining about the fact that they have to call us most of the time to have the feedback of their files’ evolution',
+      name: 'CFAO Technologies',
       role: 'Project Manager',
+      image: b,
     },
     {
-      text: 'Lorem ipsum dolor sit amet consectetur. Id pharetra eget congue eget sapien feugiat vitae ultricies leo. Tristique ut placerat vitae enim consectetur eget integer. Posuere mauris elit phasellus viverra adipiscing.',
-      name: 'Cameron Kisha',
+      text: 'Generally satisfy  with our services  with the delivery timing of 8 days average (when all the docs are OK)',
+      name: 'Nestle Cameroun',
       role: 'Project Manager',
+      image: c,
     },
     {
-      text: 'Lorem ipsum dolor sit amet consectetur. Id pharetra eget congue eget sapien feugiat vitae ultricies leo. Tristique ut placerat vitae enim consectetur eget integer. Posuere mauris elit phasellus viverra adipiscing.',
-      name: 'Cameron Kisha',
+      text: 'Generally satisfy with the delivery of their complex files and others, though not really ok with our communication effectiveness.',
+      name: 'PERENCO',
       role: 'Project Manager',
+      image: d,
     },
     {
-      text: 'Lorem ipsum dolor sit amet consectetur. Id pharetra eget congue eget sapien feugiat vitae ultricies leo. Tristique ut placerat vitae enim consectetur eget integer. Posuere mauris elit phasellus viverra adipiscing.',
-      name: 'Cameron Kisha',
+      text: 'Some improvement in quality of services. encourage the team to keep it up and do even better.',
+      name: 'Smit Lamnalco',
       role: 'Project Manager',
-    },
-    {
-      text: 'Lorem ipsum dolor sit amet consectetur. Id pharetra eget congue eget sapien feugiat vitae ultricies leo. Tristique ut placerat vitae enim consectetur eget integer. Posuere mauris elit phasellus viverra adipiscing.',
-      name: 'Cameron Kisha',
-      role: 'Project Manager',
+      image: e,
     },
   ];
 
@@ -52,11 +56,11 @@ const Testimonal = () => {
                 </div>
                 <div className="flex-up-stae">
                   <div className="minuss">
-                    <img src={e} alt="" />
+                    <img src={testimonial.image} alt="" />
                   </div>
                   <div className="regr">
                     <div className="came">{testimonial.name}</div>
-                    <div className="prooo">{testimonial.role}</div>
+
                     <div>
                       <svg
                         width="120"
