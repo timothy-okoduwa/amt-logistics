@@ -1,12 +1,13 @@
 import React from 'react';
-import ceo from '../image/ceo.png';
-import coo from '../image/coo.png';
-import cto from '../image/cto.png';
-import mm from '../image/mm.png';
-import bd from '../image/bd.png';
-import hit from '../image/hit.png';
-import sales from '../image/sales.png';
-import fin from '../image/fin.png';
+// import ceo from '../image/ceo.png';
+// import coo from '../image/coo.png';
+// import cto from '../image/cto.png';
+// import mm from '../image/mm.png';
+// import bd from '../image/bd.png';
+// import hit from '../image/hit.png';
+// import sales from '../image/sales.png';
+// import fin from '../image/fin.png';
+import fin from '../image/workers.png';
 const Team = () => {
   return (
     <div>
@@ -21,8 +22,12 @@ const Team = () => {
           </div>
         </div>
       </div>
-      <div className="container mt-4">
-        <div className="row mt-5">
+      <div className="container mt-4 mb-5">
+        <div className="wello">
+          <img src={fin} alt="" />
+        </div>
+
+        {/* <div className="row mt-5">
           <div className="col-12 col-lg-3 mb-5 d-flex justify-content-center">
             <div className="gracce">
               <div className="uju">
@@ -127,7 +132,7 @@ const Team = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

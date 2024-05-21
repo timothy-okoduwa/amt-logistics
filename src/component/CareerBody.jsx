@@ -10,7 +10,7 @@ const CareerBody = () => {
       <OurValues />
       <AClass />
       <Perks />
-      <WorkersTest />
+      {/* <WorkersTest /> */}
     </div>
   );
 };
