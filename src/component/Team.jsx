@@ -16,7 +16,10 @@ const Team = () => {
         </div>
       </div>
       <div className="container mt-4 mb-5">
-        <div className="wello">{/* <img src={fin} alt="" /> */}</div>
+        <div className="wello">
+          {' '}
+          <img src={fin} alt="" />{' '}
+        </div>
       </div>
     </div>
   );
