@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import c from '../image/cargo.svg';
-import e from '../image/engneer.svg';
+import e from '../image/oursol.webp';
 const SolutionHeader = () => {
   return (
     <div className="push_up">
@@ -26,7 +26,7 @@ const SolutionHeader = () => {
             </div>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="weoeoeo" interval={3000}>
+        {/* <Carousel.Item className="weoeoeo" interval={3000}>
           <img src={e} className="" alt="slides" text="Second slide" />
           <Carousel.Caption className="avavav">
             <div className="container">
@@ -63,7 +63,7 @@ const SolutionHeader = () => {
               </div>
             </div>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
     </div>
   );

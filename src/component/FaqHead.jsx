@@ -25,7 +25,7 @@ const FaqHead = () => {
             </div>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="weoeoeo" interval={3000}>
+        {/* <Carousel.Item className="weoeoeo" interval={3000}>
           <img src={f2} className="" alt="slides" text="Second slide" />
           <Carousel.Caption className="avavav">
             <div className="container">
@@ -69,7 +69,7 @@ const FaqHead = () => {
               </div>
             </div>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
     </div>
   );

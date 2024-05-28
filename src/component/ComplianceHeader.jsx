@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import c from '../image/fore.svg';
+import c from '../image/qhe.webp';
 import e from '../image/engneer.svg';
 const ComplianceHeader = () => {
   return (
@@ -22,7 +22,7 @@ const ComplianceHeader = () => {
             </div>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item className="weoeoeo" interval={3000}>
+        {/* <Carousel.Item className="weoeoeo" interval={3000}>
           <img src={c} className="" alt="slides" text="Second slide" />
           <Carousel.Caption className="avavav">
             <div className="container">
@@ -51,7 +51,7 @@ const ComplianceHeader = () => {
               </div>
             </div>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
     </div>
   );

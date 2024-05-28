@@ -3,6 +3,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionActions from '@mui/material/AccordionActions';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
+import { Link } from 'react-router-dom';
 const Faqbody = () => {
   return (
     <div className="paddington2">
@@ -195,7 +196,14 @@ const Faqbody = () => {
           </div>
         </div>
         <div className="doubts">Have more doubts?</div>
-        <div className="cus">Contact Us</div>
+        <div className="cus">
+          <Link
+            to="/contact"
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            Contact Us
+          </Link>
+        </div>
       </div>
     </div>
   );

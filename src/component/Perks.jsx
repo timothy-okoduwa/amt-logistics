@@ -36,9 +36,10 @@ const Perks = () => {
                 <div className="mx-5">
                   <div className="uph">Health Insurance</div>
                   <div className="gwawa">
-                    Lorem ipsum dolor sit amet consectetur. Id pharetra eget
-                    congue eget sapien feugiat vitae ultricies lorem lorem lorem
-                    loremleo.
+                    As a legal company that respects the clauses of the
+                    collective agreement, we at AMT CAMEROUN SA guarantee our
+                    employees health cover in all hospitals in the country.
+                    national territory.
                   </div>
                 </div>
               </div>
@@ -77,14 +78,14 @@ const Perks = () => {
                 <div className="mx-5">
                   <div className="uph">Retirement Plan</div>
                   <div className="gwawa">
-                    Lorem ipsum dolor sit amet consectetur. Id pharetra eget
-                    congue eget sapien feugiat vitae ultricies lorem lorem lorem
-                    loremleo.
+                    Being employed at AMT CAMEROUN SA means being affiliated to
+                    the CNPS, and having all your monthly contributions met for
+                    the duration of the contract. Training programmes
                   </div>
                 </div>
               </div>
             </div>
-            <div className="mb-4">
+            {/* <div className="mb-4">
               <div className="d-flex">
                 <div>
                   <svg
@@ -109,7 +110,7 @@ const Perks = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="mb-4">
               <div className="d-flex">
                 <div>
@@ -129,14 +130,16 @@ const Perks = () => {
                 <div className="mx-5">
                   <div className="uph">Professional Development </div>
                   <div className="gwawa">
-                    Lorem ipsum dolor sit amet consectetur. Id pharetra eget
-                    congue eget sapien feugiat vitae ultricies lorem lorem lorem
-                    loremleo.
+                    With the advent of NICTs, the world is constantly changing.
+                    To ensure that our teams are always at the top of their game
+                    and can easily adapt to this change, we organise training
+                    programmes that enable them to update their skills as
+                    necessary to maintain the AMT CAMEROUN SA. brand image.
                   </div>
                 </div>
               </div>
             </div>
-            <div className="mb-4">
+            {/* <div className="mb-4">
               <div className="d-flex">
                 <div>
                   <svg
@@ -201,7 +204,7 @@ const Perks = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="col-12 col-lg-6 mb-4">
             <div
