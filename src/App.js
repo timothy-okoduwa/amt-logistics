@@ -21,6 +21,7 @@ function App() {
         <TopName />
         <NavBarr />
       </div>
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -33,7 +34,6 @@ function App() {
         <Route path="/news-details" element={<NewsDetails />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-
       <Footer />
       <ScrollToTop />
     </BrowserRouter>
