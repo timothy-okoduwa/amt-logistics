@@ -19,14 +19,14 @@ const TopName = () => {
           <span>
             <MdMailOutline className="wiko" />
           </span>{' '}
-          AMT @ SUPPORT.COM
+          contact@amtcm.sa.com
         </div>
         <div className="accoumant_words">
           {' '}
           <span>
             <FiPhone className="wiko" />
           </span>{' '}
-          +237677889909090
+          +237679523690
         </div>
       </div>
     </div>
