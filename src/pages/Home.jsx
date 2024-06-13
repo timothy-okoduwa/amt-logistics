@@ -20,6 +20,7 @@ const Home = () => {
       <LocalCert />
       <Faq />
       <div className="krkrk">
+        <a href="https://wa.me/237679523690" target="_blank" rel="noopener noreferrer">
         <div className="whatsapp_circle">
           <svg
             width="56"
@@ -36,6 +37,7 @@ const Home = () => {
             />
           </svg>
         </div>
+          </a>
       </div>
     </div>
   );
