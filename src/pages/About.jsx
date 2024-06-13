@@ -11,7 +11,8 @@ const About = () => {
       <OurHistory />
       <Vision />
       <Team />{' '}
-      <div className="krkrk">
+<div className="krkrk">
+        <a href="https://wa.me/237679523690" target="_blank" rel="noopener noreferrer">
         <div className="whatsapp_circle">
           <svg
             width="56"
@@ -28,6 +29,7 @@ const About = () => {
             />
           </svg>
         </div>
+          </a>
       </div>
     </div>
   );
