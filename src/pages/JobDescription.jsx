@@ -27,7 +27,6 @@ const JobDescription = () => {
         </div>
           </a>
       </div>
-      </div>
     </div>
   );
 };
