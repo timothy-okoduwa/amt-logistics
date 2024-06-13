@@ -11,6 +11,7 @@ const Career = () => {
         <CareerBody />
       </div>
       <div className="krkrk">
+        <a href="https://wa.me/237679523690" target="_blank" rel="noopener noreferrer">
         <div className="whatsapp_circle">
           <svg
             width="56"
@@ -27,6 +28,7 @@ const Career = () => {
             />
           </svg>
         </div>
+          </a>
       </div>
     </div>
   );
