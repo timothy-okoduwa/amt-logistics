@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import f1 from '../image/career.svg';
+
 // import f3 from '../image/career.svg';
 // import f2 from '../image/career.svg';
 // import f4 from '../image/career.svg';

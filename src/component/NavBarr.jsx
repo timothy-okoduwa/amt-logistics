@@ -2,11 +2,12 @@ import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-import l from '../image/amt-logo.svg';
 import { Link } from 'react-router-dom';
+import l from '../image/amt-logo.svg';
+
 const NavBarr = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,16 +25,31 @@ const NavBarr = () => {
     };
   }, [scrolled]);
 
+  const handleLinkClick = () => {
+    setExpanded(false);
+  };
+
   return (
     <div>
-      <Navbar expand="lg" className={`bground ${scrolled ? 'scrolled' : ''}`}>
+      <Navbar
+        expand="lg"
+        className={`bground ${scrolled ? 'scrolled' : ''}`}
+        expanded={expanded}
+      >
         <Container>
           <Navbar.Brand>
-            <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+            <Link
+              to="/"
+              style={{ textDecoration: 'none', color: 'inherit' }}
+              onClick={handleLinkClick}
+            >
               <img src={l} alt="img" />
             </Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            onClick={() => setExpanded(!expanded)}
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="wehhhoo w-100">
               <div className="wrapper">
@@ -41,6 +57,7 @@ const NavBarr = () => {
                   <Link
                     to="/about"
                     style={{ textDecoration: 'none', color: 'inherit' }}
+                    onClick={handleLinkClick}
                   >
                     About us
                   </Link>
@@ -49,6 +66,7 @@ const NavBarr = () => {
                   <Link
                     to="/solutions"
                     style={{ textDecoration: 'none', color: 'inherit' }}
+                    onClick={handleLinkClick}
                   >
                     Our Solutions
                   </Link>
@@ -57,6 +75,7 @@ const NavBarr = () => {
                   <Link
                     to="/compliance"
                     style={{ textDecoration: 'none', color: 'inherit' }}
+                    onClick={handleLinkClick}
                   >
                     Compliance & QHSSE
                   </Link>
@@ -65,15 +84,16 @@ const NavBarr = () => {
                   <Link
                     to="/news"
                     style={{ textDecoration: 'none', color: 'inherit' }}
+                    onClick={handleLinkClick}
                   >
                     News
                   </Link>
                 </div>
-
                 <div className={`navslinks ${scrolled ? 'scrolled' : ''}`}>
                   <Link
                     to="/career"
                     style={{ textDecoration: 'none', color: 'inherit' }}
+                    onClick={handleLinkClick}
                   >
                     Career
                   </Link>
@@ -82,6 +102,7 @@ const NavBarr = () => {
                   <Link
                     to="/faqs"
                     style={{ textDecoration: 'none', color: 'inherit' }}
+                    onClick={handleLinkClick}
                   >
                     FAQS
                   </Link>
@@ -89,6 +110,7 @@ const NavBarr = () => {
                 <Link
                   to="/contact"
                   style={{ textDecoration: 'none', color: 'inherit' }}
+                  onClick={handleLinkClick}
                 >
                   <button className="contact_us">Contact Us</button>
                 </Link>

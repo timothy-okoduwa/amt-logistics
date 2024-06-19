@@ -3,7 +3,7 @@ import c from '../image/cargos.svg';
 import t from '../image/trucks.svg';
 import d from '../image/Photo.png';
 import cu from '../image/custom.svg';
-import ll from '../image/landd.svg';
+import ll from '../image/landd.webp';
 import cr from '../image/crane.svg';
 import mee from '../image/hh.png';
 import LocalCertSecond from './LocalCertSecond';

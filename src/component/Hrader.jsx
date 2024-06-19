@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import c from '../image/cargo.svg';
+import c from '../image/cargo.webp';
 import e from '../image/h2.webp';
 import f from '../image/h3.webp';
 import { Link } from 'react-router-dom';

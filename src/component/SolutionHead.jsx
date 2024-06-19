@@ -1,6 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import c from '../image/cargo.svg';
+
 import e from '../image/oursol.webp';
 const SolutionHeader = () => {
   return (
